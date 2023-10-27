@@ -1,0 +1,2 @@
+To allow Git to handle filenames that are longer than 260 characters: (May require admin privileges)
+    git config --system core.longpaths true
