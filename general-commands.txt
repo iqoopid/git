@@ -1,2 +1,14 @@
-To allow Git to handle filenames that are longer than 260 characters: (May require admin privileges)
-    git config --system core.longpaths true
+# To allow Git to handle filenames that are longer than 260 characters: (May require admin privileges)
+git config --system core.longpaths true
+
+# Reset Git code to match Github:
+git fetch origin
+
+# Edit the configuration file manually:
+git config --global --edit #AND git config --edit
+
+# To remove the “user.name” entry from the configuration:
+git config --global --unset user.name #AND git config --unset user.name
+
+# To remove all variables for one config:
+git config --global --unset-all user.name #AND git config --unset-all user.name
